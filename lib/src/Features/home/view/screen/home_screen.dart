@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Image.network(
-                  "https://th.bing.com/th/id/OIP.SVMt39Ct0lnd1EVHHnYRjQHaJ4?rs=1&pid=ImgDetMain",
+                  "https://th.bing.com/th/id/OIP._Kzol1ojbjKA3ssy9U4SagHaHa?w=1536&h=1536&rs=1&pid=ImgDetMain",
                   height: 150,
                   fit: BoxFit.cover,
                 ),
