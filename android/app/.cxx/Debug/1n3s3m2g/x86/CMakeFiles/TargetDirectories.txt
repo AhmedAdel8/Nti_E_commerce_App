@@ -1,0 +1,2 @@
+D:/APPS/nti_e_commerce_app/android/app/.cxx/Debug/1n3s3m2g/x86/CMakeFiles/edit_cache.dir
+D:/APPS/nti_e_commerce_app/android/app/.cxx/Debug/1n3s3m2g/x86/CMakeFiles/rebuild_cache.dir

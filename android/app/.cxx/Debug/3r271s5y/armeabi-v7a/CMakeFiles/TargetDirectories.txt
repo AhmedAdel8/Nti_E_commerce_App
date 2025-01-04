@@ -1,0 +1,2 @@
+D:/APPS/nti_e_commerce_app/android/app/.cxx/Debug/3r271s5y/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/APPS/nti_e_commerce_app/android/app/.cxx/Debug/3r271s5y/armeabi-v7a/CMakeFiles/rebuild_cache.dir
