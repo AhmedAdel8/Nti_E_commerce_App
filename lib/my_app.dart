@@ -10,11 +10,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          iconTheme: IconThemeData(color: Colors.white),
-          backgroundColor: Colors.deepPurpleAccent,
+          //elevation: 1,
+          iconTheme: IconThemeData(color: Colors.black),
+          //backgroundColor: Colors.deepPurpleAccent,
           titleTextStyle: TextStyle(
-            color: Colors.white,
-            fontSize: 18,
+            color: Colors.black,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
         ),
