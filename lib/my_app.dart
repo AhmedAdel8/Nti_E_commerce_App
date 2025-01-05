@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nti_e_commerce_app/src/Features/home/view/screen/home_screen.dart';
+import 'package:nti_e_commerce_app/src/features/home/widget/bottom_navigation_bar/Bottom_navigation_bar.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,18 +9,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        //iconTheme: const IconThemeData(color: Colors.white),
         appBarTheme: const AppBarTheme(
-          //elevation: 1,
           iconTheme: IconThemeData(color: Colors.black),
-          //backgroundColor: Colors.deepPurpleAccent,
+          //backgroundColor: Colors.blue,
           titleTextStyle: TextStyle(
             color: Colors.black,
-            fontSize: 20,
+            fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
         ),
       ),
-      home: HomeScreen(),
+      home: CustomNavigation(),
     );
   }
 }

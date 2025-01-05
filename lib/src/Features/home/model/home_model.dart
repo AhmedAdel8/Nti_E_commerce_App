@@ -4,9 +4,11 @@ class ShoesModel {
   final String subTitle;
   final String image;
   final double price;
+  bool isFav;
 
   ShoesModel(
-      {required this.rating,
+      {this.isFav = false,
+      required this.rating,
       required this.title,
       required this.subTitle,
       required this.price,
@@ -14,15 +16,6 @@ class ShoesModel {
 }
 
 List<ShoesModel> listModelShoes = [
-  ShoesModel(
-    rating: "⭐⭐⭐⭐⭐",
-    price: 45,
-    title: "Graphic T-Shirt",
-    subTitle:
-        "A stylish cotton t-shirt with vibrant graphic prints, perfect for everyday wear.",
-    image:
-        "https://th.bing.com/th/id/OIP.EaRYr9iELk41ufSE8_P5qwAAAA?w=400&h=400&rs=1&pid=ImgDetMain",
-  ),
   ShoesModel(
     rating: "⭐⭐⭐⭐",
     price: 65,
@@ -76,23 +69,53 @@ List<ShoesModel> listModelShoes = [
   ),
   ShoesModel(
     rating: "⭐⭐⭐⭐",
-    price: 600,
-    title: "Yeezy Boost 350",
-    subTitle: "A modern sneaker from Adidas in collaboration with Kanye West.",
-    image: "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05",
+    price: 40,
+    title: "Cargo Shorts",
+    subTitle:
+        "Durable and comfortable shorts with multiple pockets for utility.",
+    image:
+        "https://th.bing.com/th/id/R.dfa955ca46fccb4ee698375b60f6b83a?rik=g3tg2fo9wgjvsQ&pid=ImgRaw&r=0",
+  ),
+  ShoesModel(
+    rating: "⭐⭐⭐⭐⭐",
+    price: 55,
+    title: "Sweatshirt",
+    subTitle: "A cozy and casual sweatshirt with ribbed cuffs and hem.",
+    image:
+        "https://th.bing.com/th/id/OIP.SVMt39Ct0lnd1EVHHnYRjQHaJ4?rs=1&pid=ImgDetMain",
   ),
   ShoesModel(
     rating: "⭐⭐⭐⭐",
-    price: 400,
-    title: "Puma RS-X",
-    subTitle: "A sporty shoe inspired by retro designs.",
-    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86",
+    price: 35,
+    title: "Printed Tank Top",
+    subTitle: "A lightweight and breathable tank top with trendy prints.",
+    image:
+        "https://th.bing.com/th/id/R.541efd9036ea4cf9961d5e1a40a0ec1c?rik=WeBxgtZik7MtKQ&pid=ImgRaw&r=0",
   ),
   ShoesModel(
     rating: "⭐⭐⭐",
-    price: 550,
-    title: "Dior B23",
-    subTitle: "A luxurious shoe with a sleek and modern design.",
-    image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f",
+    price: 20,
+    title: "Basic Tee Pack",
+    subTitle: "Pack of three plain tees made from soft and durable fabric.",
+    image:
+        "https://th.bing.com/th/id/OIF.HPUtzWfYb018FvUsv5hICg?rs=1&pid=ImgDetMain",
+  ),
+  ShoesModel(
+    rating: "⭐⭐⭐⭐⭐",
+    price: 90,
+    title: "Bomber Jacket",
+    subTitle: "Trendy bomber jacket with ribbed trims and stylish details.",
+    image:
+        "https://th.bing.com/th/id/OIP.VD-c6qZ5sjyoVRH-Bk_UawHaJ3?rs=1&pid=ImgDetMain",
+  ),
+  ShoesModel(
+    rating: "⭐⭐⭐",
+    price: 25,
+    title: "Capri Pants",
+    subTitle:
+        "Stretchable capri pants designed for comfort during warm weather.",
+    image:
+        "https://th.bing.com/th/id/OIP.kx9HaD1HaHVVK4urk3OPegHaHa?w=1425&h=1425&rs=1&pid=ImgDetMain",
   ),
 ];
+List<ShoesModel> favs = [];
